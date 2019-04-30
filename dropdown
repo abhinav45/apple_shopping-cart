@@ -1,0 +1,9 @@
+<li id="cart" class="drop_button">
+        <button><i class="fa fa-shopping-bag"></i></button>
+        <div class="dropdown_div">
+          <a href="bag.html"><button>Bag</button></a>
+         <a href="Favourites.html"> <button>Favourites</button></a>
+          <a href="Orders.html"><button>Orders</button></a>
+          <a href="login.html"><button>Sign in</button></a>
+        </div>
+      </li>

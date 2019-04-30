@@ -1,0 +1,452 @@
+.navbar {
+  background-color: #333;
+  font-family: lato,  sans-serif;
+}
+
+ul.topnav{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+  display: flex;
+	background-color: #333;
+}
+ul.topnav li{
+	float: left;
+}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 89px;
+}
+ ul.topnav ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 79px;
+  font-size: 17px;
+}@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align:left;
+    width: 80%;
+    margin: 0;
+    padding: 14px;
+  }
+    .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+body,html{
+	background-color:#e9ece9;
+	margin: 0;
+	padding:0;
+  height: 100%;
+ font-family: 'Lato', sans-serif;
+   }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:209px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.center{
+  text-align: center;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("mac.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.text{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* drop down */
+
+.topnav li button {
+    padding: 1rem;
+    border: none;
+    background: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+#cart {
+  float: right;
+  position: relative;
+}
+.rop_button {
+  position: relative;
+}
+
+
+.dropdown_div {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  background: #000;
+  display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+
+/* Add padding to containers */
+.pcontainer {
+  
+  background-color: white;
+  width:50%;
+  padding: 5px;
+  margin:25px;
+  position: relative;
+  left:20%;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.signinbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.signinbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 50px;
+}
+.form{
+  position: relative;
+  left:65px;
+  display: block;
+  
+}
+.up{
+  position: relative;
+  left:138px;
+}
+.email {
+  width: 80%%;
+  
+}
+
+.password: {
+   width: 80%%;
+  
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 82%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 50px;
+}
+.register_form{
+  position: relative;
+  left:65px;
+  display: block;
+}
+.rcontainer{
+
+  background-color: white;
+  position:absolute;
+  top:65px;
+  left: 344px;
+
+  
+
+}
+.down{
+  position: relative;
+  left:213px;
+}
+.me{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  outline:none;
+}
+.footer{
+  width:100%;
+  height:auto;
+  margin:auto;
+  background:#272727;
+  padding:20px 0px;
+}
+.social_icons{
+  width:100%;
+  height:auto;
+  margin:auto;
+}
+.social_icons ul{
+  margin:0px;
+  padding:0px;
+  text-align:center;
+
+}
+.social_icons ul li{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  margin:0px 10px;
+  border-radius:100%;
+  background: green;
+}
+  
+.social_icons ul li a{
+  color:black;
+  font-size: 25px;
+}
+.social_icons ul li a i{
+  line-height: 50px;
+}
+.footer-menu{
+  width:100%;
+  height:auto;
+  margin:auto;
+  margin-top: 25px;
+}
+.footer-menu ul{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+.footer-menu ul li{
+  display: inline-block;
+  margin:0px 15px;
+}
+.footer-menu ul li a{
+  font-family:arial;
+  font-size: 16px;
+  font-weight:600;
+  color:white;
+  text-transform:uppercase;
+}
+.footer-menu-one{
+  width:100%;
+  height:auto;
+  margin:auto;
+  margin-top: 15px;
+}
+.footer-menu-one ul{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+}
+.footer-menu-one ul li{
+  display: inline-block;
+  margin:0px 15px;
+}
+.footer-menu-one ul li a{
+  font-family:arial;
+  font-size: 16px;
+  font-weight:600;
+  color:white;
+  text-transform:uppercase;
+}
+.footer-menu-one ul li a::hover{
+color:blue;
+}
+.footer-bottom{
+  width:100%;
+  height:auto;
+  margin:auto;
+  background:green;
+  padding: 10px;
+}
+.footer-bottom p{
+  font-family: arial;
+  font-size: 14px;
+  text-align: center;
+  color:#fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.footer-bottom p a{
+  color:#fff;
+
+
+}
+.footer-bottom p a:hover{
+  color:#272727;
+}
+body{
+  font-family: acme;
+  font-size: 22px;
+}
+.none{
+  min-height: 100vh;
+}
+.khuch{
+  min-height: 100vh;
+}
+
+.box{
+  padding:0rem;
+}
+
+ .box_style {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+ }
+.buy{
+  background-color:blue;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
+  font-size: 15px;
+}
+
+.product{
+  background-color:green;
+  padding:10px;
+  border-radius: 10px;
+  color:white;
+  font-size: 15px;
+}
+
